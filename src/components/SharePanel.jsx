@@ -1,19 +1,19 @@
 import React from 'react';
 
 export default function SharePanel({ mood, onClose }) {
-  const origin = window.location.origin; // 👈 dynamic domain (live or localhost)
-  const shareText = `I'm feeling ${mood}! Check out MoodMeal 🍽️: ${origin}`;
-  const url = `${origin}`;
+  const origin = window.location.origin; // 👈 live domain or localhost
+  const shareLink = `${origin}/mood/${encodeURIComponent(mood)}`; // 👈 full mood link
+  const shareText = `I'm feeling ${mood}! Check out MoodMeal 🍽️: ${shareLink}`;
 
   const handleCopy = (platform) => {
-    navigator.clipboard.writeText(shareText);
-    alert(`Copied for ${platform} ✅`);
+    navigator.clipboard.writeText(shareLink); // 👈 copy the link directly
+    alert(`Link copied for ${platform} ✅`);
   };
-
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm">
       <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 w-[92%] max-w-md shadow-xl transition-all text-center relative">
+
         {/* Close button */}
         <button
           onClick={onClose}
@@ -47,7 +47,7 @@ export default function SharePanel({ mood, onClose }) {
             🐦 Twitter
           </a>
           <a
-            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded-xl shadow"
@@ -55,7 +55,7 @@ export default function SharePanel({ mood, onClose }) {
             📘 Facebook
           </a>
           <a
-            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareLink)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-sky-600 hover:bg-sky-700 text-white py-2 px-4 rounded-xl shadow"
