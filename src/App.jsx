@@ -385,84 +385,83 @@ const mockData = {
     { name: "Burger", link: "https://www.youtube.com/results?search_query=how+to+make+Burger" },
   ],
   Determined: [
-    { name: "Smoothie", link: "https://www.youtube.com/watch?v=2CzMagqdjko" },
-    { name: "Fried Rice", link: "https://www.youtube.com/watch?v=Skgp53_PYKo" },
-    { name: "Tacos", link: "https://www.youtube.com/watch?v=emgRgUctsqg" },
-    { name: "Nachos", link: "https://www.youtube.com/watch?v=5RoWxdsF5Wc" },
-    { name: "Cupcakes", link: "https://www.youtube.com/watch?v=Ffqe3GnNJhc" },
-    { name: "Popcorn", link: "https://www.youtube.com/watch?v=n3W2v3DVy_U" },
-    { name: "Fruit Punch", link: "https://www.youtube.com/watch?v=D4j5znnGsTk" },
-    { name: "Green Tea", link: "https://www.youtube.com/watch?v=bjc-gs0bhX0" },
-    { name: "Oatmeal", link: "https://www.youtube.com/watch?v=ws1YdzsAKOw" },
-    { name: "Soup", link: "https://www.youtube.com/watch?v=LrKhcvZYFdQ" }
+    { name: "Fruit Smoothie", link: "https://www.youtube.com/results?search_query=how+to+make+Fruit+Smoothie" },
+    { name: "Egg Fried Rice", link: "https://www.youtube.com/results?search_query=how+to+make+Egg+Fried+Rice" },
+    { name: "Paneer Tikka", link: "https://www.youtube.com/results?search_query=how+to+make+Paneer+Tikka" }, // Indian
+    { name: "Veg Biryani", link: "https://www.youtube.com/results?search_query=how+to+make+Veg+Biryani" }, // Indian
+    { name: "Tacos", link: "https://www.youtube.com/results?search_query=how+to+make+Tacos" },
+    { name: "Nachos", link: "https://www.youtube.com/results?search_query=how+to+make+Nachos" },
+    { name: "Samosa", link: "https://www.youtube.com/results?search_query=how+to+make+Samosa" }, // Indian
+    { name: "Pav Bhaji", link: "https://www.youtube.com/results?search_query=how+to+make+Pav+Bhaji" }, // Indian
+    { name: "Cupcakes", link: "https://www.youtube.com/results?search_query=how+to+make+Cupcakes" },
+    { name: "Popcorn", link: "https://www.youtube.com/results?search_query=how+to+make+Popcorn" }
   ],
 
   Peaceful: [
-    { name: "Chamomile Tea", link: "https://www.youtube.com/watch?v=fxLynmHjF3g" },
-    { name: "Avocado Toast", link: "https://www.youtube.com/watch?v=WZzt_5R7YVk" },
-    { name: "Miso Soup", link: "https://www.youtube.com/watch?v=4P7CklQw1sU" },
-    { name: "Sushi Rolls", link: "https://www.youtube.com/watch?v=I1UDS2kgqY8" },
-    { name: "Matcha Latte", link: "https://www.youtube.com/watch?v=RU6QGy2KMZ0" },
-    { name: "Zen Buddha Bowl", link: "https://www.youtube.com/watch?v=fcG7SI2OY3s" },
-    { name: "Herbal Smoothie", link: "https://www.youtube.com/watch?v=4abup3QIWgM" },
-    { name: "Steamed Dumplings", link: "https://www.youtube.com/watch?v=86Mo9YZCmFA" },
-    { name: "Mediterranean Quinoa", link: "https://www.youtube.com/watch?v=jxZSGVWZ3MQ" },
-    { name: "Oatmeal with Berries", link: "https://www.youtube.com/watch?v=FZLT_hqJ0VE" }
+    { name: "Chamomile Tea", link: "https://www.youtube.com/results?search_query=how+to+make+Chamomile+Tea" },
+    { name: "Avocado Toast", link: "https://www.youtube.com/results?search_query=how+to+make+Avocado+Toast" },
+    { name: "Miso Soup", link: "https://www.youtube.com/results?search_query=how+to+make+Miso+Soup" },
+    { name: "Masala Dosa", link: "https://www.youtube.com/results?search_query=how+to+make+Masala+Dosa" }, // Indian
+    { name: "Idli Sambar", link: "https://www.youtube.com/results?search_query=how+to+make+Idli+Sambar" }, // Indian
+    { name: "Mediterranean Quinoa", link: "https://www.youtube.com/results?search_query=how+to+make+Mediterranean+Quinoa" },
+    { name: "Sushi Rolls", link: "https://www.youtube.com/results?search_query=how+to+make+Sushi+Rolls" },
+    { name: "Palak Paneer", link: "https://www.youtube.com/results?search_query=how+to+make+Palak+Paneer" }, // Indian
+    { name: "Herbal Smoothie", link: "https://www.youtube.com/results?search_query=how+to+make+Herbal+Smoothie" },
+    { name: "Aloo Paratha", link: "https://www.youtube.com/results?search_query=how+to+make+Aloo+Paratha" } // Indian
   ],
 
   Thankful: [
-    { name: "Roast Turkey", link: "https://www.youtube.com/watch?v=3tY7rZxT3RY" },
-    { name: "Pumpkin Pie", link: "https://www.youtube.com/watch?v=7XeH6UJNlXc" },
-    { name: "Stuffing", link: "https://www.youtube.com/watch?v=kQ1Q17wIuIQ" },
-    { name: "Cranberry Sauce", link: "https://www.youtube.com/watch?v=_MO3ptTsmZs" },
-    { name: "Sweet Potato Casserole", link: "https://www.youtube.com/watch?v=PGa3K6wzKjE" },
-    { name: "Apple Pie", link: "https://www.youtube.com/watch?v=G-TGxfpV5kI" },
-    { name: "Mashed Potatoes", link: "https://www.youtube.com/watch?v=1jG9J4rjDTA" },
-    { name: "Cornbread", link: "https://www.youtube.com/watch?v=u6XLx6SvvgQ" },
-    { name: "Gravy", link: "https://www.youtube.com/watch?v=QpztF77uKVo" },
-    { name: "Green Bean Casserole", link: "https://www.youtube.com/watch?v=-NiU3Zgjh44" }
+    { name: "Butter Chicken", link: "https://www.youtube.com/results?search_query=how+to+make+Butter+Chicken" }, // Indian
+    { name: "Pumpkin Pie", link: "https://www.youtube.com/results?search_query=how+to+make+Pumpkin+Pie" },
+    { name: "Stuffing", link: "https://www.youtube.com/results?search_query=how+to+make+Stuffing" },
+    { name: "Cranberry Sauce", link: "https://www.youtube.com/results?search_query=how+to+make+Cranberry+Sauce" },
+    { name: "Sweet Potato Casserole", link: "https://www.youtube.com/results?search_query=how+to+make+Sweet+Potato+Casserole" },
+    { name: "Apple Pie", link: "https://www.youtube.com/results?search_query=how+to+make+Apple+Pie" },
+    { name: "Mashed Potatoes", link: "https://www.youtube.com/results?search_query=how+to+make+Mashed+Potatoes" },
+    { name: "Cornbread", link: "https://www.youtube.com/results?search_query=how+to+make+Cornbread" },
+    { name: "Gravy", link: "https://www.youtube.com/results?search_query=how+to+make+Gravy" },
+    { name: "Dal Makhani", link: "https://www.youtube.com/results?search_query=how+to+make+Dal+Makhani" } // Indian
   ],
 
   Playful: [
-    { name: "Mini Pizzas", link: "https://www.youtube.com/watch?v=-T1FN5SpoD8" },
-    { name: "Rainbow Cupcakes", link: "https://www.youtube.com/watch?v=5nH_XBlR8EM" },
-    { name: "Loaded Nachos", link: "https://www.youtube.com/watch?v=R3DbyV4iSN4" },
-    { name: "Cheesy Fries", link: "https://www.youtube.com/watch?v=rWQExz-2dZk" },
-    { name: "Popcorn Chicken", link: "https://www.youtube.com/watch?v=6CyoJdMTfdQ" },
-    { name: "DIY Tacos", link: "https://www.youtube.com/watch?v=PL9YXWJ9BlI" },
-    { name: "Colorful Smoothies", link: "https://www.youtube.com/watch?v=srJ1Bky34Gs" },
-    { name: "Fruit Kabobs", link: "https://www.youtube.com/watch?v=9uj9sTfBpuM" },
-    { name: "Sliders", link: "https://www.youtube.com/watch?v=4IojVTPIjC4" },
-    { name: "Ice Cream Sundaes", link: "https://www.youtube.com/watch?v=TxZYszvYt20" }
+    { name: "Mini Pizzas", link: "https://www.youtube.com/results?search_query=how+to+make+Mini+Pizzas" },
+    { name: "Rainbow Cupcakes", link: "https://www.youtube.com/results?search_query=how+to+make+Rainbow+Cupcakes" },
+    { name: "Loaded Nachos", link: "https://www.youtube.com/results?search_query=how+to+make+Loaded+Nachos" },
+    { name: "Cheesy Fries", link: "https://www.youtube.com/results?search_query=how+to+make+Cheesy+Fries" },
+    { name: "Vada Pav", link: "https://www.youtube.com/results?search_query=how+to+make+Vada+Pav" }, // Indian
+    { name: "Bhel Puri", link: "https://www.youtube.com/results?search_query=how+to+make+Bhel+Puri" }, // Indian
+    { name: "Ice Cream Sundaes", link: "https://www.youtube.com/results?search_query=how+to+make+Ice+Cream+Sundaes" },
+    { name: "Fruit Kabobs", link: "https://www.youtube.com/results?search_query=how+to+make+Fruit+Kabobs" },
+    { name: "Pani Puri", link: "https://www.youtube.com/results?search_query=how+to+make+Pani+Puri" }, // Indian
+    { name: "Sliders", link: "https://www.youtube.com/results?search_query=how+to+make+Sliders" }
   ],
 
   Optimistic: [
-    { name: "Sunshine Smoothie", link: "https://www.youtube.com/watch?v=9IX1TYhK9CQ" },
-    { name: "Avocado Egg Toast", link: "https://www.youtube.com/watch?v=yBkDFej5p-Q" },
-    { name: "Lemon Chicken", link: "https://www.youtube.com/watch?v=YeIUrMQaMXs" },
-    { name: "Fruit Salad", link: "https://www.youtube.com/watch?v=f8VdpxGQbBw" },
-    { name: "Veggie Stir Fry", link: "https://www.youtube.com/watch?v=r3d0Lg4K6Kg" },
-    { name: "Orange Glazed Salmon", link: "https://www.youtube.com/watch?v=AN3SLs9ZwIE" },
-    { name: "Strawberry Yogurt Parfait", link: "https://www.youtube.com/watch?v=jqQxq5VdiMQ" },
-    { name: "Stuffed Peppers", link: "https://www.youtube.com/watch?v=0jP46GQJQIo" },
-    { name: "Blueberry Pancakes", link: "https://www.youtube.com/watch?v=ExZyccHo_7c" },
-    { name: "Chicken Caesar Wraps", link: "https://www.youtube.com/watch?v=wAF02FBtkGU" }
+    { name: "Sunshine Smoothie", link: "https://www.youtube.com/results?search_query=how+to+make+Sunshine+Smoothie" },
+    { name: "Poha", link: "https://www.youtube.com/results?search_query=how+to+make+Poha" }, // Indian
+    { name: "Lemon Chicken", link: "https://www.youtube.com/results?search_query=how+to+make+Lemon+Chicken" },
+    { name: "Fruit Salad", link: "https://www.youtube.com/results?search_query=how+to+make+Fruit+Salad" },
+    { name: "Chole Bhature", link: "https://www.youtube.com/results?search_query=how+to+make+Chole+Bhature" }, // Indian
+    { name: "Veggie Stir Fry", link: "https://www.youtube.com/results?search_query=how+to+make+Veggie+Stir+Fry" },
+    { name: "Orange Glazed Salmon", link: "https://www.youtube.com/results?search_query=how+to+make+Orange+Glazed+Salmon" },
+    { name: "Blueberry Pancakes", link: "https://www.youtube.com/results?search_query=how+to+make+Blueberry+Pancakes" },
+    { name: "Chicken Caesar Wraps", link: "https://www.youtube.com/results?search_query=how+to+make+Chicken+Caesar+Wraps" },
+    { name: "Rajma Chawal", link: "https://www.youtube.com/results?search_query=how+to+make+Rajma+Chawal" } // Indian
   ],
 
   Anxious: [
-    { name: "Banana Bread", link: "https://www.youtube.com/watch?v=ZRzS5n5c6aM" },
-    { name: "Peanut Butter Smoothie", link: "https://www.youtube.com/watch?v=vhtIt4gxL5w" },
-    { name: "Oatmeal Cookies", link: "https://www.youtube.com/watch?v=qYocOXcC7gI" },
-    { name: "Chamomile Tea", link: "https://www.youtube.com/watch?v=fxLynmHjF3g" },
-    { name: "Mac and Cheese", link: "https://www.youtube.com/watch?v=4fHuADnV3vU" },
-    { name: "Chocolate Muffins", link: "https://www.youtube.com/watch?v=GvNHbM1Llyw" },
-    { name: "Veggie Soup", link: "https://www.youtube.com/watch?v=4E3Y_4FQF1M" },
-    { name: "Rice Pudding", link: "https://www.youtube.com/watch?v=dH8sZyk_VxM" },
-    { name: "Herbal Tea Blend", link: "https://www.youtube.com/watch?v=g2bEv08TmA4" },
-    { name: "Toast with Honey", link: "https://www.youtube.com/watch?v=wM7SnQMR5Fs" }
+    { name: "Banana Bread", link: "https://www.youtube.com/results?search_query=how+to+make+Banana+Bread" },
+    { name: "Peanut Butter Smoothie", link: "https://www.youtube.com/results?search_query=how+to+make+Peanut+Butter+Smoothie" },
+    { name: "Oatmeal Cookies", link: "https://www.youtube.com/results?search_query=how+to+make+Oatmeal+Cookies" },
+    { name: "Chamomile Tea", link: "https://www.youtube.com/results?search_query=how+to+make+Chamomile+Tea" },
+    { name: "Mac and Cheese", link: "https://www.youtube.com/results?search_query=how+to+make+Mac+and+Cheese" },
+    { name: "Chocolate Muffins", link: "https://www.youtube.com/results?search_query=how+to+make+Chocolate+Muffins" },
+    { name: "Upma", link: "https://www.youtube.com/results?search_query=how+to+make+Upma" }, // Indian
+    { name: "Veggie Soup", link: "https://www.youtube.com/results?search_query=how+to+make+Veggie+Soup" },
+    { name: "Rice Pudding", link: "https://www.youtube.com/results?search_query=how+to+make+Rice+Pudding" },
+    { name: "Toast with Honey", link: "https://www.youtube.com/results?search_query=how+to+make+Toast+with+Honey" }
   ]
 };
-  
 
 
 
