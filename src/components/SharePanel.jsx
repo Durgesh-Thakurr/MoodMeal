@@ -1,13 +1,15 @@
 import React from 'react';
 
 export default function SharePanel({ mood, onClose }) {
-  const shareText = `I'm feeling ${mood}! Check out MoodMeal 🍽️: https://moodmeal.vercel.app`;
-  const url = "https://moodmeal.vercel.app";
+  const origin = window.location.origin; // 👈 dynamic domain (live or localhost)
+  const shareText = `I'm feeling ${mood}! Check out MoodMeal 🍽️: ${origin}`;
+  const url = `${origin}`;
 
   const handleCopy = (platform) => {
     navigator.clipboard.writeText(shareText);
     alert(`Copied for ${platform} ✅`);
   };
+
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm">
