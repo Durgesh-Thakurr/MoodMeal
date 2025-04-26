@@ -7,6 +7,10 @@ import FooterQuote from './components/FooterQuote';
 
 
 
+
+
+
+
 const mockData = {
   "Happy": [
     { name: "Pizza", link: "https://www.youtube.com/results?search_query=how+to+make+Pizza" },
@@ -380,80 +384,88 @@ const mockData = {
     { name: "Energy Bar", link: "https://www.youtube.com/results?search_query=how+to+make+Energy+Bar" },
     { name: "Burger", link: "https://www.youtube.com/results?search_query=how+to+make+Burger" },
   ],
-  "Determined": [
-    { name: "Smoothie", link: "https://www.youtube.com/results?search_query=how+to+make+Smoothie" },
-    { name: "Fried Rice", link: "https://www.youtube.com/results?search_query=how+to+make+Fried+Rice" },
-    { name: "Tacos", link: "https://www.youtube.com/results?search_query=how+to+make+Tacos" },
-    { name: "Nachos", link: "https://www.youtube.com/results?search_query=how+to+make+Nachos" },
-    { name: "Cupcakes", link: "https://www.youtube.com/results?search_query=how+to+make+Cupcakes" },
-    { name: "Popcorn", link: "https://www.youtube.com/results?search_query=how+to+make+Popcorn" },
-    { name: "Fruit Punch", link: "https://www.youtube.com/results?search_query=how+to+make+Fruit+Punch" },
-    { name: "Green Tea", link: "https://www.youtube.com/results?search_query=how+to+make+Green+Tea" },
-    { name: "Oatmeal", link: "https://www.youtube.com/results?search_query=how+to+make+Oatmeal" },
-    { name: "Soup", link: "https://www.youtube.com/results?search_query=how+to+make+Soup" },
+  Determined: [
+    { name: "Smoothie", link: "https://www.youtube.com/watch?v=2CzMagqdjko" },
+    { name: "Fried Rice", link: "https://www.youtube.com/watch?v=Skgp53_PYKo" },
+    { name: "Tacos", link: "https://www.youtube.com/watch?v=emgRgUctsqg" },
+    { name: "Nachos", link: "https://www.youtube.com/watch?v=5RoWxdsF5Wc" },
+    { name: "Cupcakes", link: "https://www.youtube.com/watch?v=Ffqe3GnNJhc" },
+    { name: "Popcorn", link: "https://www.youtube.com/watch?v=n3W2v3DVy_U" },
+    { name: "Fruit Punch", link: "https://www.youtube.com/watch?v=D4j5znnGsTk" },
+    { name: "Green Tea", link: "https://www.youtube.com/watch?v=bjc-gs0bhX0" },
+    { name: "Oatmeal", link: "https://www.youtube.com/watch?v=ws1YdzsAKOw" },
+    { name: "Soup", link: "https://www.youtube.com/watch?v=LrKhcvZYFdQ" }
   ],
 
   Peaceful: [
-    { name: 'Chamomile Tea', link: 'https://www.youtube.com/watch?v=fxLynmHjF3g' },
-    { name: 'Avocado Toast', link: 'https://www.youtube.com/watch?v=7H8zmT2d6bs' },
-    { name: 'Miso Soup', link: 'https://www.youtube.com/watch?v=4P7CklQw1sU' },
-    { name: 'Sushi Rolls', link: 'https://www.youtube.com/watch?v=I1UDS2kgqY8' },
-    { name: 'Matcha Latte', link: 'https://www.youtube.com/watch?v=RU6QGy2KMZ0' },
-    { name: 'Zen Buddha Bowl', link: 'https://www.youtube.com/watch?v=fcG7SI2OY3s' },
-    { name: 'Herbal Smoothie', link: 'https://www.youtube.com/watch?v=4abup3QIWgM' },
-    { name: 'Steamed Dumplings', link: 'https://www.youtube.com/watch?v=86Mo9YZCmFA' },
-    { name: 'Mediterranean Quinoa', link: 'https://www.youtube.com/watch?v=jxZSGVWZ3MQ' },
-    { name: 'Oatmeal with Berries', link: 'https://www.youtube.com/watch?v=FZLT_hqJ0VE' }
+    { name: "Chamomile Tea", link: "https://www.youtube.com/watch?v=fxLynmHjF3g" },
+    { name: "Avocado Toast", link: "https://www.youtube.com/watch?v=WZzt_5R7YVk" },
+    { name: "Miso Soup", link: "https://www.youtube.com/watch?v=4P7CklQw1sU" },
+    { name: "Sushi Rolls", link: "https://www.youtube.com/watch?v=I1UDS2kgqY8" },
+    { name: "Matcha Latte", link: "https://www.youtube.com/watch?v=RU6QGy2KMZ0" },
+    { name: "Zen Buddha Bowl", link: "https://www.youtube.com/watch?v=fcG7SI2OY3s" },
+    { name: "Herbal Smoothie", link: "https://www.youtube.com/watch?v=4abup3QIWgM" },
+    { name: "Steamed Dumplings", link: "https://www.youtube.com/watch?v=86Mo9YZCmFA" },
+    { name: "Mediterranean Quinoa", link: "https://www.youtube.com/watch?v=jxZSGVWZ3MQ" },
+    { name: "Oatmeal with Berries", link: "https://www.youtube.com/watch?v=FZLT_hqJ0VE" }
   ],
+
   Thankful: [
-    { name: 'Roast Turkey', link: 'https://www.youtube.com/watch?v=3tY7rZxT3RY' },
-    { name: 'Pumpkin Pie', link: 'https://www.youtube.com/watch?v=7XeH6UJNlXc' },
-    { name: 'Stuffing', link: 'https://www.youtube.com/watch?v=kQ1Q17wIuIQ' },
-    { name: 'Cranberry Sauce', link: 'https://www.youtube.com/watch?v=_MO3ptTsmZs' },
-    { name: 'Sweet Potato Casserole', link: 'https://www.youtube.com/watch?v=PGa3K6wzKjE' },
-    { name: 'Apple Pie', link: 'https://www.youtube.com/watch?v=G-TGxfpV5kI' },
-    { name: 'Mashed Potatoes', link: 'https://www.youtube.com/watch?v=1jG9J4rjDTA' },
-    { name: 'Cornbread', link: 'https://www.youtube.com/watch?v=u6XLx6SvvgQ' },
-    { name: 'Gravy', link: 'https://www.youtube.com/watch?v=QpztF77uKVo' },
-    { name: 'Green Bean Casserole', link: 'https://www.youtube.com/watch?v=-NiU3Zgjh44' }
+    { name: "Roast Turkey", link: "https://www.youtube.com/watch?v=3tY7rZxT3RY" },
+    { name: "Pumpkin Pie", link: "https://www.youtube.com/watch?v=7XeH6UJNlXc" },
+    { name: "Stuffing", link: "https://www.youtube.com/watch?v=kQ1Q17wIuIQ" },
+    { name: "Cranberry Sauce", link: "https://www.youtube.com/watch?v=_MO3ptTsmZs" },
+    { name: "Sweet Potato Casserole", link: "https://www.youtube.com/watch?v=PGa3K6wzKjE" },
+    { name: "Apple Pie", link: "https://www.youtube.com/watch?v=G-TGxfpV5kI" },
+    { name: "Mashed Potatoes", link: "https://www.youtube.com/watch?v=1jG9J4rjDTA" },
+    { name: "Cornbread", link: "https://www.youtube.com/watch?v=u6XLx6SvvgQ" },
+    { name: "Gravy", link: "https://www.youtube.com/watch?v=QpztF77uKVo" },
+    { name: "Green Bean Casserole", link: "https://www.youtube.com/watch?v=-NiU3Zgjh44" }
   ],
+
   Playful: [
-    { name: 'Mini Pizzas', link: 'https://www.youtube.com/watch?v=-T1FN5SpoD8' },
-    { name: 'Rainbow Cupcakes', link: 'https://www.youtube.com/watch?v=5nH_XBlR8EM' },
-    { name: 'Loaded Nachos', link: 'https://www.youtube.com/watch?v=R3DbyV4iSN4' },
-    { name: 'Cheesy Fries', link: 'https://www.youtube.com/watch?v=rWQExz-2dZk' },
-    { name: 'Popcorn Chicken', link: 'https://www.youtube.com/watch?v=6CyoJdMTfdQ' },
-    { name: 'DIY Tacos', link: 'https://www.youtube.com/watch?v=PL9YXWJ9BlI' },
-    { name: 'Colorful Smoothies', link: 'https://www.youtube.com/watch?v=srJ1Bky34Gs' },
-    { name: 'Fruit Kabobs', link: 'https://www.youtube.com/watch?v=9uj9sTfBpuM' },
-    { name: 'Sliders', link: 'https://www.youtube.com/watch?v=4IojVTPIjC4' },
-    { name: 'Ice Cream Sundaes', link: 'https://www.youtube.com/watch?v=TxZYszvYt20' }
+    { name: "Mini Pizzas", link: "https://www.youtube.com/watch?v=-T1FN5SpoD8" },
+    { name: "Rainbow Cupcakes", link: "https://www.youtube.com/watch?v=5nH_XBlR8EM" },
+    { name: "Loaded Nachos", link: "https://www.youtube.com/watch?v=R3DbyV4iSN4" },
+    { name: "Cheesy Fries", link: "https://www.youtube.com/watch?v=rWQExz-2dZk" },
+    { name: "Popcorn Chicken", link: "https://www.youtube.com/watch?v=6CyoJdMTfdQ" },
+    { name: "DIY Tacos", link: "https://www.youtube.com/watch?v=PL9YXWJ9BlI" },
+    { name: "Colorful Smoothies", link: "https://www.youtube.com/watch?v=srJ1Bky34Gs" },
+    { name: "Fruit Kabobs", link: "https://www.youtube.com/watch?v=9uj9sTfBpuM" },
+    { name: "Sliders", link: "https://www.youtube.com/watch?v=4IojVTPIjC4" },
+    { name: "Ice Cream Sundaes", link: "https://www.youtube.com/watch?v=TxZYszvYt20" }
   ],
+
   Optimistic: [
-    { name: 'Sunshine Smoothie', link: 'https://www.youtube.com/watch?v=9IX1TYhK9CQ' },
-    { name: 'Avocado Egg Toast', link: 'https://www.youtube.com/watch?v=yBkDFej5p-Q' },
-    { name: 'Lemon Chicken', link: 'https://www.youtube.com/watch?v=YeIUrMQaMXs' },
-    { name: 'Fruit Salad', link: 'https://www.youtube.com/watch?v=f8VdpxGQbBw' },
-    { name: 'Veggie Stir Fry', link: 'https://www.youtube.com/watch?v=r3d0Lg4K6Kg' },
-    { name: 'Orange Glazed Salmon', link: 'https://www.youtube.com/watch?v=AN3SLs9ZwIE' },
-    { name: 'Strawberry Yogurt Parfait', link: 'https://www.youtube.com/watch?v=jqQxq5VdiMQ' },
-    { name: 'Stuffed Peppers', link: 'https://www.youtube.com/watch?v=0jP46GQJQIo' },
-    { name: 'Blueberry Pancakes', link: 'https://www.youtube.com/watch?v=ExZyccHo_7c' },
-    { name: 'Chicken Caesar Wraps', link: 'https://www.youtube.com/watch?v=wAF02FBtkGU' }
+    { name: "Sunshine Smoothie", link: "https://www.youtube.com/watch?v=9IX1TYhK9CQ" },
+    { name: "Avocado Egg Toast", link: "https://www.youtube.com/watch?v=yBkDFej5p-Q" },
+    { name: "Lemon Chicken", link: "https://www.youtube.com/watch?v=YeIUrMQaMXs" },
+    { name: "Fruit Salad", link: "https://www.youtube.com/watch?v=f8VdpxGQbBw" },
+    { name: "Veggie Stir Fry", link: "https://www.youtube.com/watch?v=r3d0Lg4K6Kg" },
+    { name: "Orange Glazed Salmon", link: "https://www.youtube.com/watch?v=AN3SLs9ZwIE" },
+    { name: "Strawberry Yogurt Parfait", link: "https://www.youtube.com/watch?v=jqQxq5VdiMQ" },
+    { name: "Stuffed Peppers", link: "https://www.youtube.com/watch?v=0jP46GQJQIo" },
+    { name: "Blueberry Pancakes", link: "https://www.youtube.com/watch?v=ExZyccHo_7c" },
+    { name: "Chicken Caesar Wraps", link: "https://www.youtube.com/watch?v=wAF02FBtkGU" }
   ],
+
   Anxious: [
-    { name: 'Banana Bread', link: 'https://www.youtube.com/watch?v=ZRzS5n5c6aM' },
-    { name: 'Peanut Butter Smoothie', link: 'https://www.youtube.com/watch?v=vhtIt4gxL5w' },
-    { name: 'Oatmeal Cookies', link: 'https://www.youtube.com/watch?v=qYocOXcC7gI' },
-    { name: 'Chamomile Tea', link: 'https://www.youtube.com/watch?v=fxLynmHjF3g' },
-    { name: 'Mac and Cheese', link: 'https://www.youtube.com/watch?v=4fHuADnV3vU' },
-    { name: 'Chocolate Muffins', link: 'https://www.youtube.com/watch?v=GvNHbM1Llyw' },
-    { name: 'Veggie Soup', link: 'https://www.youtube.com/watch?v=4E3Y_4FQF1M' },
-    { name: 'Rice Pudding', link: 'https://www.youtube.com/watch?v=dH8sZyk_VxM' },
-    { name: 'Herbal Tea Blend', link: 'https://www.youtube.com/watch?v=g2bEv08TmA4' },
-    { name: 'Toast with Honey', link: 'https://www.youtube.com/watch?v=wM7SnQMR5Fs' } 
-  ],
+    { name: "Banana Bread", link: "https://www.youtube.com/watch?v=ZRzS5n5c6aM" },
+    { name: "Peanut Butter Smoothie", link: "https://www.youtube.com/watch?v=vhtIt4gxL5w" },
+    { name: "Oatmeal Cookies", link: "https://www.youtube.com/watch?v=qYocOXcC7gI" },
+    { name: "Chamomile Tea", link: "https://www.youtube.com/watch?v=fxLynmHjF3g" },
+    { name: "Mac and Cheese", link: "https://www.youtube.com/watch?v=4fHuADnV3vU" },
+    { name: "Chocolate Muffins", link: "https://www.youtube.com/watch?v=GvNHbM1Llyw" },
+    { name: "Veggie Soup", link: "https://www.youtube.com/watch?v=4E3Y_4FQF1M" },
+    { name: "Rice Pudding", link: "https://www.youtube.com/watch?v=dH8sZyk_VxM" },
+    { name: "Herbal Tea Blend", link: "https://www.youtube.com/watch?v=g2bEv08TmA4" },
+    { name: "Toast with Honey", link: "https://www.youtube.com/watch?v=wM7SnQMR5Fs" }
+  ]
 };
+  
+
+
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -461,7 +473,10 @@ function App() {
   const [suggestions, setSuggestions] = useState([]);
   const suggestionRef = useRef(null);
 
-  // Toggle dark mode class on <html>
+  // Toggle Dark Mode
+  const toggleDarkMode = () => setDarkMode(!darkMode);
+
+  // Apply dark mode to <html>
   useEffect(() => {
     const root = document.documentElement;
     if (darkMode) {
@@ -471,21 +486,28 @@ function App() {
     }
   }, [darkMode]);
 
-  const toggleDarkMode = () => setDarkMode(!darkMode);
+  // Detect mood from URL on load
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const sharedMood = params.get('mood');
+    if (sharedMood) {
+      setMood(sharedMood);
+      setSuggestions(mockData[sharedMood] || []);
+    }
+  }, []);
 
+  // When user manually selects a mood
   const handleMoodSelect = (selectedMood) => {
     setMood(selectedMood);
     setSuggestions(mockData[selectedMood] || []);
     setTimeout(() => {
       suggestionRef.current?.scrollIntoView({ behavior: 'smooth' });
-    }, 100); 
+    }, 100);
   };
 
- 
- 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-100 to-pink-200 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white transition-colors duration-300 p-4 sm:p-6 flex flex-col items-center">
-  
+
       {/* Dark Mode Toggle */}
       <div className="w-full flex justify-end mb-4">
         <button
@@ -495,37 +517,107 @@ function App() {
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </div>
-  
+
       {/* Logo Header */}
       <LogoHeader />
-  
+
       {/* Mood Selector */}
       <div className="w-full max-w-5xl">
         <MoodSelector onSelect={handleMoodSelect} />
       </div>
-  
-      {/* Food Suggestions */}
+
+      {/* Food Suggestions with Animation */}
       {mood && (
         <div
           ref={suggestionRef}
-          className="w-full max-w-3xl mt-10 h-[70vh] overflow-y-auto"
+          className="w-full max-w-3xl mt-10 h-[70vh] overflow-y-auto
+          transition-all duration-700 ease-out transform animate-slide-in"
         >
           <FoodSuggestion mood={mood} suggestions={suggestions} />
         </div>
       )}
-  
-      {/* Footer Quote - visible only if mood is selected */}
+
+      {/* Footer Quote with Animation */}
       {mood && (
-        <div className="fixed bottom-4 left-4 right-4 sm:right-8 sm:left-auto max-w-xs p-4 bg-white dark:bg-gray-900 text-xs sm:text-sm text-gray-700 dark:text-gray-200 rounded-xl shadow-lg z-50">
+        <div className="fixed bottom-4 left-4 right-4 sm:right-8 sm:left-auto max-w-xs p-4
+        bg-white dark:bg-gray-900 text-xs sm:text-sm text-gray-700 dark:text-gray-200
+        rounded-xl shadow-lg z-50 transition-all duration-500 ease-in animate-fade-in">
           <FooterQuote mood={mood} />
         </div>
       )}
     </div>
   );
-   
 }
 
 export default App;
+
+// function App() {
+//   const [darkMode, setDarkMode] = useState(false);
+//   const [mood, setMood] = useState('');
+//   const [suggestions, setSuggestions] = useState([]);
+//   const suggestionRef = useRef(null);
+
+//   const toggleDarkMode = () => setDarkMode(!darkMode);
+
+//   useEffect(() => {
+//     const root = document.documentElement;
+//     if (darkMode) {
+//       root.classList.add('dark');
+//     } else {
+//       root.classList.remove('dark');
+//     }
+//   }, [darkMode]);
+
+//   const handleMoodSelect = (selectedMood) => {
+//     setMood(selectedMood);
+//     setSuggestions(mockData[selectedMood] || []);
+//     setTimeout(() => {
+//       suggestionRef.current?.scrollIntoView({ behavior: 'smooth' });
+//     }, 100);
+//   };
+
+//   return (
+//     <div className="min-h-screen bg-gradient-to-br from-yellow-100 to-pink-200 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white transition-colors duration-300 p-4 sm:p-6 flex flex-col items-center">
+      
+//       {/* Dark Mode Toggle */}
+//       <div className="w-full flex justify-end mb-4">
+//         <button
+//           onClick={toggleDarkMode}
+//           className="bg-white dark:bg-gray-800 text-black dark:text-white px-4 py-2 rounded shadow hover:bg-yellow-200 dark:hover:bg-gray-700 transition text-sm sm:text-base"
+//         >
+//           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+//         </button>
+//       </div>
+
+//       {/* Logo Header */}
+//       <LogoHeader />
+
+//       {/* Mood Selector */}
+//       <div className="w-full max-w-5xl">
+//         <MoodSelector onSelect={handleMoodSelect} />
+//       </div>
+
+//       {/* Food Suggestions */}
+//       {mood && (
+//         <div
+//           ref={suggestionRef}
+//           className="w-full max-w-3xl mt-10 h-[70vh] overflow-y-auto"
+//         >
+//           <FoodSuggestion mood={mood} suggestions={suggestions} />
+//         </div>
+//       )}
+
+//       {/* Footer Quote */}
+//       {mood && (
+//         <div className="fixed bottom-4 left-4 right-4 sm:right-8 sm:left-auto max-w-xs p-4 bg-white dark:bg-gray-900 text-xs sm:text-sm text-gray-700 dark:text-gray-200 rounded-xl shadow-lg z-50">
+//           <FooterQuote mood={mood} />
+//         </div>
+//       )}
+//     </div>
+//   );
+// }
+
+// export default App;
 
 
 
